@@ -31,10 +31,10 @@
     }
   },
   "environment": {
-    "uilayout": "terminal-terminal",
+    "uilayout": "terminal",
     "uimessage1": ""
   },
   "backend": {
-    "imageid": "kubernetes"
+    "imageid": "docker"
   }
 }

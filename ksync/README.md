@@ -1,8 +1,8 @@
-1. Launch the kubernetes cluster.
+1. Start the cluster via. minikube
 
     ```bash
-    launch.sh
-    ```
+    minikube start
+    ```{{execute}}
 
 1. Install ksync. This will fetch the binary and put it at `/usr/local/bin`.
 

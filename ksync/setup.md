@@ -10,7 +10,7 @@ Initialize ksync and install the server component on your cluster. The server co
 
 `ksync init`{{execute}}
 
-1. Startup the local client. It watches your local config to start new jobs and the kubernetes API to react when things change. This will just put it into the background. Feel free to run in a separate terminal or add as a service to your host.
+Startup the local client. It watches your local config to start new jobs and the kubernetes API to react when things change. This will just put it into the background. Feel free to run in a separate terminal or add as a service to your host.
 
 `ksync watch --daemon`{{execute}}
 

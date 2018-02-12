@@ -1,0 +1,40 @@
+{
+  "title": "Ksync",
+  "description": "Update containers transparently on a kubernetes cluster",
+  "difficulty": "beginner",
+  "time": "2 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1 - Setup",
+        "text": "setup.md"
+      },
+      {
+        "title": "Step 2 - Add the demo app",
+        "text": "demo_app.md"
+      },
+      {
+        "title": "Step 3 - Create a new spec",
+        "text": "new_spec.md"
+      },
+      {
+        "title": "Step 4 - Update the container",
+        "text": "update.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": ""
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal.\r\nStart Kubernetes using `launch.sh`\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "bash"
+  }
+}

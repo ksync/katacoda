@@ -6,11 +6,11 @@
   "details": {
     "steps": [{
       "title": "Step 1 - Initialise Master",
-      "text": "setup.md",
-      "code": "env-init.sh"
+      "text": "setup.md"
     }],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "env-init.sh"
     }
   },
   "files": ["server.py"],

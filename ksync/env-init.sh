@@ -1,2 +1,1 @@
-# Configuring environment, please wait...
-apt install -y socat &> /dev/null
+ssh root@host01 "apt install -y socat"

@@ -5,6 +5,7 @@
   "time": "2 minutes",
   "details": {
     "intro": {
+      "text": "intro.md",
       "courseData": "setup.sh"
     },
     "steps": [
@@ -33,6 +34,9 @@
       "text": "finish.md"
     }
   },
+  "files": [
+    "server.py"
+  ],
   "environment": {
     "uilayout": "terminal",
     "uimessage1": ""

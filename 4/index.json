@@ -4,11 +4,14 @@
 	"pathwayTitle": "Kubernetes Bootcamp",
 	"id": "4",
 	"backend": {
-		"image": "minikube"
+		"imageid": "minikube"
 	},
 	"files": ["App"],
 	"environment": {
-		"uilayout": "terminal"
+		"uilayout": "terminal-v1",
+		"uidependencies": ["/socket.io/socket.io.js", "/javascripts/term.js", "/javascripts/terminal-application.js"],
+		"hideintro": false,
+		"hidefinish": false
 	},
 	"details": {
 		"steps": [{

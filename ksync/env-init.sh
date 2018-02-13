@@ -1,1 +1,2 @@
-echo "asdf" >> /opt/katacoda-completed
+# Configuring environment, please wait...
+apt install -y socat

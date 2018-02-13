@@ -1,3 +1,3 @@
-#!/bin/bash
+echo "asdf" > ~/tmp
 
 apt install -y socat

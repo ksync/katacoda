@@ -1,2 +1,2 @@
 # Configuring environment, please wait...
-apt install -y socat &> /dev/nullgca -m
+apt install -y socat &> /dev/null

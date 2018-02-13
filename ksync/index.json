@@ -2,7 +2,7 @@
   "title": "Ksync",
   "description": "Update containers transparently on a kubernetes cluster",
   "difficulty": "beginner",
-  "time": "2 minutes",
+  "time": "5 minutes",
   "details": {
     "steps": [{
       "title": "Step 1 - Setup the cluster",

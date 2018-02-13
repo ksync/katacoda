@@ -9,4 +9,4 @@ Check on the status. You should see a watching state with a pod name in the list
 
 Take a look at the files that have been synced from the container (running on the cluster) locally.
 
-`ls -l ksync`
+`ls -l ksync`{{execute}}

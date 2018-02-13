@@ -1,1 +1,1 @@
-echo "asdf" > ~/tmp
+echo "asdf" > /tmp/foobar

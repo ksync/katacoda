@@ -1,1 +1,1 @@
-echo "asdf" > /tmp/foobar
+echo "asdf" >> /opt/katacoda-completed

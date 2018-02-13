@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "Step 1 - Initialise Master",
-        "text": "setup.md"
+        "text": "setup.md",
+        "code": "courseBase.sh"
       }
     ],
     "intro": {

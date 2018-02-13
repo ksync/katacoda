@@ -4,6 +4,9 @@
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
+    "intro": {
+      "courseData": "setup.sh"
+    },
     "steps": [
       {
         "title": "Step 1 - Setup",

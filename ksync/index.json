@@ -4,28 +4,20 @@
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
-    "steps": [
-      {
-        "title": "Step 1 - Initialise Master",
-        "text": "setup.md",
-        "code": "courseBase.sh"
-      }
-    ],
+    "steps": [{
+      "title": "Step 1 - Initialise Master",
+      "text": "setup.md"
+    }],
     "intro": {
-        "text": "intro.md",
-        "courseData": "courseBase.sh",
-        "credits": ""
-    },
-    "finish": {
-        "text": "finish.md"
+      "text": "intro.md",
+      "courseData": "setup.sh"
     }
   },
-  "files": [
-    "server.py"
-  ],
   "environment": {
-    "uilayout": "terminal",
-    "uimessage1": ""
+    "uilayout": "terminal-v1",
+    "uidependencies": ["/socket.io/socket.io.js", "/javascripts/term.js", "/javascripts/terminal-application.js"],
+    "hideintro": false,
+    "hidefinish": false
   },
   "backend": {
     "imageid": "minikube"

@@ -1,6 +1,6 @@
 Install ksync. This will fetch the binary and put it at `/usr/local/bin`.
 
-`curl https://vapor-ware.github.io/gimme-that/gimme.sh | bash`{{execute}}
+`curl https://ksync.github.io/gimme-that/gimme.sh | bash`{{execute}}
 
 Initialize ksync and install the server component on your cluster. The server component is a DaemonSet that provides access to each node's filesystem. This will also go through a set of pre and postflight checks to verify that everything is working correctly. You can run these yourself by using `ksync doctor`.
 

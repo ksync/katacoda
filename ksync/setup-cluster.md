@@ -4,7 +4,7 @@ Start the cluster via. minikube
 
 Add the demo app to your cluster. This is a simple python app made with flask. Because ksync moves files around, it would work for any kind of data you'd like to move between your local system and the cluster.
 
-`kubectl apply -f https://vapor-ware.github.io/ksync/example/app/app.yaml`{{execute}}
+`kubectl apply -f https://ksync.github.io/ksync/example/app/app.yaml`{{execute}}
 
 Make sure that the app is ready and running.
 
